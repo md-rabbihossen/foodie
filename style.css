@@ -7,137 +7,101 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-:root{
-    --lead: #212121;
-    --gold-finger: #F2BD12;
-    --eye-ball: #FFFDF7;
-    --hint-yellow: #FCF1CC;
-    --pure-white: #FFF;
+:root {
+  --lead: #212121;
+  --gold-finger: #f2bd12;
+  --eye-ball: #fffdf7;
+  --hint-yellow: #fcf1cc;
+  --pure-white: #fff;
 }
 
-body{
-    background: var(--eye-ball);
+body {
+  background: var(--eye-ball);
 }
 
 /* BASIC STYLING */
-a{
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: var(--lead);
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--lead);
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-    
+.flex {
+  display: flex;
+  align-items: center;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-.between{
-    justify-content: space-between;
+.between {
+  justify-content: space-between;
 }
 
-.gap-2{
-    gap: 2rem;
+.gap-2 {
+  gap: 2rem;
 }
 
-.gap-3{
-    gap: 3rem;
+.gap-3 {
+  gap: 3rem;
 }
 
-
-
-
-
-
-
-
-
- 
 /* HEADER STYLING */
 
-.navbar{
-    min-height: 14vh;
+.navbar {
+  min-height: 14vh;
 }
 
-.wrapper{
-    max-width: 1400px;
-    margin: auto;
-    padding-inline: 1.4rem;
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+  padding-inline: 1.4rem;
 }
 
-.logo{
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--gold-finger);
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--gold-finger);
 }
 
-.btn{
-    display: inline-block;
-    background: var(--gold-finger);
-    padding: .9rem 2rem;
-    border-radius: 1rem;
-    font-size: 1.1rem;
-    color: var(--pure-white);
-    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
-    transition: .3s ease-in-out;
+.btn {
+  display: inline-block;
+  background: var(--gold-finger);
+  padding: 0.9rem 2rem;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  color: var(--pure-white);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+  transition: 0.3s ease-in-out;
 }
 
-.btn:hover{
-    background-color: var(--lead);
+.btn:hover {
+  background-color: var(--lead);
 }
 
-.card-icon{
-    color: var(--lead) ;
-    font-size: 1.3rem;
-    position: relative;
+.card-icon {
+  color: var(--lead);
+  font-size: 1.3rem;
+  position: relative;
 }
 
-.cart-icon .cart-value{
-    position: absolute;
-    font-size: .85rem;
-    
-
+.cart-icon .cart-value {
+  position: absolute;
+  top: 60px;
+  right: 246px;
+  font-size: 0.85rem;
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  background: var(--gold-finger);
+  color: var(--lead);
+  text-align: center;
+  line-height: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 /* HERO SECTION STYLINGS */
 
-
-
-
-
-
-
-
-
-
 /* FOOTER STYLING */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERIES STYLING */

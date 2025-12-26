@@ -80,13 +80,13 @@ li {
   background-color: var(--lead);
 }
 
-.card-icon {
+.cart-icon {
   color: var(--lead);
   font-size: 1.3rem;
   position: relative;
 }
 
-.cart-icon .cart-value {
+/* .cart-icon .cart-value {
   position: absolute;
   top: 60px;
   right: 246px;
@@ -98,6 +98,25 @@ li {
   color: var(--lead);
   text-align: center;
   line-height: 20px;
+} */
+.cart-icon .cart-value {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(40%, 40%);
+  font-size: 0.85rem;
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  background: var(--gold-finger);
+  color: var(--lead);
+  text-align: center;
+  line-height: 20px;
+} 
+
+.desktop-action .hamburger{
+  font-size: 1.5rem;
+  display: none;
 }
 
 /* HERO SECTION STYLINGS */
